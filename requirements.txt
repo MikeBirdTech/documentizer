@@ -1,0 +1,3 @@
+networkx==3.3
+ollama==0.2.1
+tqdm==4.66.4

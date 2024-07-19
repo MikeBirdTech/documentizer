@@ -1,0 +1,21 @@
+{
+  "ignore_patterns": [
+    "venv/*",
+    "*.pyc",
+    "__pycache__/*",
+    "__init__.*",
+    "*.git*",
+    "*.md",
+    "LICENSE",
+    "*.lock",
+    "*.toml"
+  ],
+  "summarize": true,
+  "prompts": {
+    "default": "Summarize this code in {detail_level} detail:\n\n{code}",
+    "file": "Provide a high-level overview of this file's purpose and main components:\n\n{code}",
+    "function": "Explain the purpose and functionality of this function in {detail_level} detail:\n\n{code}",
+    "class": "Describe the purpose and structure of this class in {detail_level} detail:\n\n{code}",
+    "method": "Explain the purpose and functionality of this method in {detail_level} detail:\n\n{code}"
+  }
+}
